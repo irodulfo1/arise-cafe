@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka:wght@1,900&display=swap');
 
+
 :root {
     --arise-cafe-primary: #6f4e37;
 }
@@ -8,6 +9,9 @@ h1, nav, p, h4, h5, h6 {
     font-family: 'Akaya Kanadaka', cursive;
 }
 
+img {
+    max-width: 100%;
+}
 nav {
     position: absolute;
     width: 90%;
@@ -39,6 +43,9 @@ nav a:hover {
     text-decoration: underline;
 }
 
+nav img {
+    width: 75px;
+}
 section.hero {
     width: 100vw;
     height: 100vh;
@@ -111,6 +118,7 @@ section.featured-pages a{
     color:blanchedalmond;
     display: flex;
     align-items: center;
+    margin: 2rem;
 }
 
 section.featured-pages a:hover {
@@ -134,4 +142,10 @@ section.testimonials {
 
 footer {
     background-color: #6f4e37;
+    text-align: center;
+}
+
+footer img {
+    width: 180px;
+    margin: 2rem
 }
