@@ -45,6 +45,7 @@ nav a:hover {
 
 nav img {
     width: 75px;
+    border-radius: 10%;
 }
 section.hero {
     width: 100vw;
@@ -148,4 +149,5 @@ footer {
 footer img {
     width: 180px;
     margin: 2rem;
+    border-radius:10%;
 }
