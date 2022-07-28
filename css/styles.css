@@ -118,10 +118,10 @@ section.featured-pages a{
     color:blanchedalmond;
     display: flex;
     align-items: center;
-    margin: 2rem;
+    margin: 10rem;
 }
 
-section.featured-pages a:hover {
+section.featured-pages a:hover{
     text-decoration: underline;
 }
  
@@ -147,5 +147,5 @@ footer {
 
 footer img {
     width: 180px;
-    margin: 2rem
+    margin: 2rem;
 }
